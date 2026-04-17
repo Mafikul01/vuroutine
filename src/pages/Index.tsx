@@ -688,8 +688,13 @@ export default function Index() {
           </DialogHeader>
           <div className="space-y-4 py-4">
             <div className="flex justify-center py-4">
-              <div className="h-20 w-20 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-500 flex items-center justify-center text-white shadow-lg relative overflow-hidden">
-                <span className="text-3xl font-heading font-bold">MI</span>
+              <div className="h-24 w-24 rounded-full bg-gradient-to-tr from-indigo-500 to-purple-500 flex items-center justify-center text-white shadow-xl relative overflow-hidden border-4 border-background">
+                <img 
+                  src="https://github.com/mafikul01.png" 
+                  alt="Mafikul Islam" 
+                  className="h-full w-full object-cover"
+                  referrerPolicy="no-referrer"
+                />
               </div>
             </div>
             <div className="text-center space-y-1.5">
